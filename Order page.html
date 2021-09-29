@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+<title>Book Orders</title>
 <body style="background-color:powderblue;">
 <form action="https://formspree.io/f/mpzknzve" method="POST" autocomplete="on">
     <fieldset>
-        <legend>customer detail:</legend>
+        <legend>Customer Info:</legend>
     Name: 
     <br>
 <input type="text" name="Name" placeholder="Jefferdefferson" autofocus required>
@@ -10,26 +12,26 @@
 
 Phone number:
     <br>
-<input type="number" placeholder="063-313-045" name="Cellphone number" readonly required>
+<input type="number" placeholder="063-313-045" name="Cellphone number" required>
     <br>
     <br>
 
 E-mail adress:
     <br>
-<input type="email" name="E-mail" placeholder="Jefferdefferson5@gmail.com" multiplew required>
+<input type="email" name="E-mail" placeholder="Jefferdefferson5@gmail.com" multiple required>
     <br>
     <br>
    </fieldset>
    <fieldset>
     <legend>Books:</legend>
-Books:
-    <br>
+    quantity:
     <input type="number" id="quantity" name="quantity" min="1" max="5">
     <select name="Books" id="books">
-      <option value="1">Vintage cars</option>
-      <option value="2">Jujutsu Kaisen manga</option>
-      <option value="3">Life Of Pi</option>
-      <option value="4">Discovery</option>
+      <option value="Vintage cars">Vintage cars</option>
+      <option value="Jujutsu Kaisen manga">Jujutsu Kaisen manga</option>
+      <option value="Life Of Pi">Life Of Pi</option>
+      <option value="Discovery">Discovery</option>
+      <option value="Hamlet">Hamlet</option>
     </select> 
     </fieldset>  
     <br>
